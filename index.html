@@ -77,3 +77,105 @@
     .benefits, .points, .partners {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .card {
+      background: #111;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(255, 79, 176, 0.2);
+    }
+    .partners img {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
+    footer {
+      background: #0a0a33;
+      padding: 30px 10px;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #ccc;
+    }
+    footer a {
+      color: #ff4fb0;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Marketing OnScreen</h1>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#midia">Mídia Indoor</a>
+      <a href="#pontos">Pontos</a>
+      <a href="#parceiros">Parceiros</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Transforme seu espaço em um canal de comunicação moderna</h2>
+    <p>A Marketing OnScreen conecta marcas e pessoas por meio da mídia indoor — levando conteúdo relevante e campanhas diretamente ao público no ponto de venda.</p>
+    <a href="https://wa.me/5519981191125" class="btn">Fale Conosco</a>
+  </section>
+
+  <section id="sobre">
+    <h3 class="section-title">Sobre Nós</h3>
+    <p>Somos especialistas em Mídia Indoor e TV Corporativa. Criamos soluções visuais que aumentam a presença da sua marca e melhoram a comunicação dentro do seu estabelecimento. Nossa missão é transformar telas em oportunidades de engajamento e visibilidade.</p>
+  </section>
+
+  <section id="midia">
+    <h3 class="section-title">O que é Mídia Indoor e TV Corporativa?</h3>
+    <div class="benefits">
+      <div class="card">
+        <h4>Mídia Indoor</h4>
+        <p>A Mídia Indoor é a exibição de conteúdo visual em pontos de venda estratégicos, impactando clientes no momento da decisão de compra. É ideal para aumentar o reconhecimento da marca e engajar o público de maneira direta.</p>
+      </div>
+      <div class="card">
+        <h4>TV Corporativa e Menus Digitais</h4>
+        <p>A TV Corporativa permite que empresas comuniquem novidades, promoções, menus digitais e informações internas de forma dinâmica e visual, oferecendo uma experiência moderna para clientes e colaboradores.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="pontos">
+    <h3 class="section-title">Nossos Pontos de Exibição</h3>
+    <p>Estamos presentes em locais estratégicos que somam mais de 30 mil visualizações mensais:</p>
+    <div class="points">
+      <div class="card">Padaria D'Conti</div>
+      <div class="card">Barbearia Garram's</div>
+      <div class="card">Despachante Líder</div>
+      <div class="card">Cafeteria Ke Coffee</div>
+      <div class="card">Auto Escola Portugal</div>
+    </div>
+  </section>
+
+  <section id="parceiros">
+    <h3 class="section-title">Nossos Parceiros</h3>
+    <p>Aqui estão os logos dos nossos parceiros estratégicos:</p>
+    <div class="partners">
+      <div class="card"><img src="logo1.png" alt="Parceiro 1"></div>
+      <div class="card"><img src="logo2.png" alt="Parceiro 2"></div>
+      <div class="card"><img src="logo3.png" alt="Parceiro 3"></div>
+      <div class="card"><img src="logo4.png" alt="Parceiro 4"></div>
+    </div>
+  </section>
+
+  <section id="contato">
+    <h3 class="section-title">Entre em Contato</h3>
+    <p>Quer anunciar ou saber mais sobre como podemos ajudar sua marca a aparecer? Fale com a gente!</p>
+    <div style="margin-top:20px;">
+      <a href="https://wa.me/5519981191125" class="btn">WhatsApp</a>
+      <a href="https://www.instagram.com/marketingonscreensp" class="btn" style="margin-left:10px; background:#0077ff;">Instagram</a>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Marketing OnScreen — Todos os direitos reservados. <br>
+    Desenvolvido com ❤ por Marketing OnScreen.
+  </footer>
+</body>
+</html>
